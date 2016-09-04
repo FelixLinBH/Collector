@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Collector_Example' do
+  pod 'Collector', :path => '../'
+
+  target 'Collector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
